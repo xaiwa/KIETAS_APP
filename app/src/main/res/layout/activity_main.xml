@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/mainLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
@@ -31,7 +32,7 @@
         <Button
             android:id="@+id/colorButton"
             android:layout_width="wrap_content"
-            android:layout_height="56dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Pakeisk spalvą" />
 
@@ -40,6 +41,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Button" />
+
+        <Button
+            android:id="@+id/darkModeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Tamsus rėžimas" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
