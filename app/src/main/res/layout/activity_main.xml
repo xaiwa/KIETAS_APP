@@ -18,7 +18,7 @@
             android:id="@+id/myTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Labas"
+            android:text="Labas!"
             android:textSize="20sp" />
 
         <Button
@@ -26,7 +26,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Paspausk" />
+            android:text="Paspausk!" />
+
+        <Button
+            android:id="@+id/colorButton"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:text="Pakeisk spalvą" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
