@@ -20,9 +20,9 @@ public class MainActivity extends AppCompatActivity {
 
         LinearLayout mainLayout = findViewById(R.id.mainLayout);
         TextView textView = findViewById(R.id.myTextView);
-        Button button = findViewById(R.id.myButton);
-        Button colorButton = findViewById(R.id.colorButton);
-        Button darkModeButton = findViewById(R.id.darkModeButton);
+        Button button = findViewById(R.id.btnChangeText);
+        Button colorButton = findViewById(R.id.btnChangeColor);
+        Button darkModeButton = findViewById(R.id.btnDarkMode);
 
         button.setOnClickListener(v -> {
             if (toggled) {

@@ -23,27 +23,21 @@
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/myButton"
+            android:id="@+id/btnChangeText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Paspausk!" />
 
         <Button
-            android:id="@+id/colorButton"
+            android:id="@+id/btnChangeColor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Pakeisk spalvą" />
 
         <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
-
-        <Button
-            android:id="@+id/darkModeButton"
+            android:id="@+id/btnDarkMode"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
